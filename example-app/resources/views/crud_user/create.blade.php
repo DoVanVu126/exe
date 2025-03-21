@@ -7,6 +7,7 @@
                 <div class="col-md-4">
                     <div class="card">
                         <h3 class="card-header text-center">Create User</h3>
+                        <h1>Do Van Vu</h1>
                         <div class="card-body">
                             <form action="{{ route('user.postUser') }}" method="POST">
                                 @csrf
